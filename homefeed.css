@@ -1,0 +1,264 @@
+.homefeed{
+    width: 100%;
+height: 1024px;
+background: #000000;
+display: flex;
+justify-content: center;
+overflow: auto; 
+    scrollbar-width: none;
+}
+.homefeed::-webkit-scrollbar {
+    display: none; 
+}
+.homefeed_inner{
+    width: 742px;
+    height: 100%;
+    margin-top: 20px;
+    
+    background-color: rgba(0, 26, 49, 0);
+}
+.home_status_Section{
+    width: 100%;
+height:95px;
+padding: 17px 0px 17px 0px;
+display: flex;
+align-items: center;
+
+margin-top: 40px;
+}
+.status_round{
+    width:86px;
+    height: 94px;
+    padding: 0px 3px 0px 3px;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 25px;
+}
+.status_img {
+    width: 72px;
+    height: 72px;
+    border-radius: 61.09px;
+    border-radius: 50%;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    
+    
+position: relative;
+}
+
+
+.status_img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.status_svg{
+    position: absolute;
+    bottom: -4px;
+    right:-4px ;
+}
+.status_text p{
+   
+
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+    
+}
+.status_arrow{
+    margin-left: 25px;
+}
+.ring{
+    position: absolute;
+    top: -7px;
+}
+.homefeed_text{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.homefeed_p p{
+
+font-family: "Inter";
+font-size: 30px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: -1px;
+text-align: left;
+
+}
+.home_card{
+    width: 680px;
+height: 1000px;
+padding: 36px 29px 36px 29px;
+border-radius: 30px;
+background-color: #09090A;
+border: 1px solid #1F1F22;
+margin-bottom: 40px;
+
+}
+.home_profile{
+    
+   height: auto;
+ display: flex;
+ 
+ align-items: center;
+ margin-bottom: 10px;
+}
+.home_card_svg{
+    margin-left: 450px;
+    margin-bottom: 40px;
+}
+.home_prof_text{
+   
+font-family: "Inter";
+font-size: 16px;
+font-weight: 600;
+line-height: 22.4px;
+text-align: left;
+margin-bottom: 40px;
+}
+.home_card_img{
+    
+height: 620px;
+width: 100%;
+border-radius: 30px;
+overflow: hidden;
+position: relative;
+
+}
+.home_card_img img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    object-position: center; 
+    border-radius: 30px; 
+}
+.inner_image_arrow{
+    position: absolute;
+    right: 2%;
+    top: 50%;
+}
+.inner_image_dots{
+    position: absolute;
+    left: 47%;
+    bottom: 2%;
+}
+.home_card_likes{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+margin-top: 20px;
+}
+.card_likes{
+    height: auto;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+}
+.card_comment_image{
+    width: 40px;
+height: 40px;
+border-radius: 50%;
+overflow: hidden;
+
+
+}
+.card_comment_image img{
+    height: 100%;
+    width: 100%;
+}
+.card_comment_input input{
+    width:581px;
+    height: 44px;
+    padding: 0px 16px 0px 16px;
+    border-radius: 8px ;
+    justify-content: space-between;
+background-color: #101012;
+border: none;
+
+font-family: "Inter";
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: left;
+color: #f8f8f8;
+
+}
+.card_comment_input input::placeholder{
+    color: #5C5C7B
+}
+.home_comment{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.suggestion_p{
+    font-family: "Inter";
+font-size: 24px;
+font-weight: 700;
+line-height: 33.6px;
+letter-spacing: -1px;
+text-align: left;
+
+}
+.suggestion_seeall{
+    font-family: "Inter";
+font-size: 16px;
+font-weight: 500;
+line-height: 22.4px;
+text-align: left;
+color: #FFB620;
+
+}
+.suggestion_heading{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.suggestion_cards{
+height: 220px;
+width:100% ;
+display: flex;
+align-items: center;
+overflow-x: auto; 
+    scrollbar-width: none;
+    position: relative;
+}
+.suggestion_card{
+height: 220px;
+width:max-content ;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.suggestion_cards::-webkit-scrollbar {
+    display: none; 
+}
+.suggestion_svg_card{
+    position: relative;
+    left: 70px;
+}
+.suggestion_arrow{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+}
